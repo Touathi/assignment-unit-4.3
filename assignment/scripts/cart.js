@@ -21,3 +21,17 @@ function listItems() {
 }
 // Test function listItems
 listItems();
+
+// Function empty
+function empty(item1, item2, item3, item4, item5) {
+    basket.pop(item1, item2, item3, item4, item5)
+    basket.pop(item1, item2, item3, item4, item5)
+    basket.pop(item1, item2, item3, item4, item5)
+    basket.pop(item1, item2, item3, item4, item5)
+    basket.pop(item1, item2, item3, item4, item5)
+    console.log(`basket is now = ${basket}`);
+}
+
+// Testing function empty
+console.log(`Emptying the basket ${basket}`);
+empty();
