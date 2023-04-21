@@ -13,3 +13,11 @@ console.log(`basket is ${basket}`);
 console.log( `item was added (true) =`, addItem('apple','grapes', 'pears', 'nuts', 'berrys'));
 console.log(`basket is now = ${basket}`);
 
+// Function listItems
+function listItems() {
+    for (let i = 0; i < basket.length; i++) {
+        console.log(`List Items =`, basket[i]);
+    }
+}
+// Test function listItems
+listItems();
