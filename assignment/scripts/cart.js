@@ -8,3 +8,8 @@ function addItem(item1, item2, item3, item4, item5) {
     basket.push(item1, item2, item3, item4, item5)
     return true;
 }
+// Testing function addItem
+console.log(`basket is ${basket}`);
+console.log( `item was added (true) =`, addItem('apple','grapes', 'pears', 'nuts', 'berrys'));
+console.log(`basket is now = ${basket}`);
+
